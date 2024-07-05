@@ -12,7 +12,7 @@ branches:
 image: Visual Studio 2017
 
 environment:
-  CONDA: c:\Miniconda37-x64
+  CONDA: c:\Miniconda3
   INSTALL_DIR: c:\ECMWF
 
   SOURCE_DIRECTORY: eccodes-2.36.0-Source
