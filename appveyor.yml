@@ -14,8 +14,6 @@ image: Visual Studio 2022
 environment:
   CONDA: c:\Miniconda3
   INSTALL_DIR: c:\ECMWF
-  AEC_LIBRARY: "C:\Program Files (x86)/libaec/lib"
-  AEC_INCLUDE_PATH: "C:\Program Files (x86)/libaec/include"
 
   SOURCE_DIRECTORY: eccodes-2.36.0-Source
   SOURCE_TAR: https://confluence.ecmwf.int/download/attachments/45757960/eccodes-2.36.0-Source.tar.gz?api=v2
@@ -61,7 +59,7 @@ build_script:
       -D ENABLE_PNG=1 ^
       -D ENABLE_JPG=1 ^
       -D OPENJPEG_INCLUDE_DIR=%CONDA%\Library\include\openjpeg-2.4 ^
-      -D AEC_LIBRARY="C:\Program Files (x86)/libaec/lib" ^
+      -D AEC_LIBRARY="C:\Program Files (x86)/libaec/bin" ^
       -D AEC_INCLUDE_DIR="C:\Program Files (x86)/libaec/include" ^
       -D IEEE_LE=1 ^
       -D ENABLE_EXAMPLES=0 ^
