@@ -62,7 +62,7 @@ build_script:
       -D ENABLE_JPG=1 ^
       -D OPENJPEG_INCLUDE_DIR=%CONDA%\Library\include\openjpeg-2.4 ^
       -D AEC_LIBRARY="C:\Program Files (x86)/libaec/lib" ^
-      -D AEC_INCLUDE_PATH="C:\Program Files (x86)/libaec/include" ^
+      -D AEC_INCLUDE_DIR="C:\Program Files (x86)/libaec/include" ^
       -D IEEE_LE=1 ^
       -D ENABLE_EXAMPLES=0 ^
       -D ENABLE_MEMFS=0 ^
