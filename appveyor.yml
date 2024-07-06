@@ -14,8 +14,8 @@ image: Visual Studio 2022
 environment:
   CONDA: c:\Miniconda3
   INSTALL_DIR: c:\ECMWF
-  AEC_LIBRARY: "C:\Program Files (x86)\libaec\lib"
-  AEC_INCLUDE_PATH: "C:\Program Files (x86)\libaec\include"
+  AEC_LIBRARY: "C:\Program Files (x86)/libaec/lib"
+  AEC_INCLUDE_PATH: "C:\Program Files (x86)/libaec/include"
 
   SOURCE_DIRECTORY: eccodes-2.36.0-Source
   SOURCE_TAR: https://confluence.ecmwf.int/download/attachments/45757960/eccodes-2.36.0-Source.tar.gz?api=v2
