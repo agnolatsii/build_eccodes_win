@@ -45,7 +45,7 @@ install:
   - cmd: conda install libpng openjpeg
 
 before_build:
-  - cmd: call "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x64
+  - cmd: call "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvars64.bat"
 
 build_script:
   - cmd: cd %SOURCE_DIRECTORY%
