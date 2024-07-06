@@ -64,7 +64,6 @@ build_script:
       -D ENABLE_MEMFS=0 ^
       -D ENABLE_TESTS=0 ^
       -D ENABLE_EXTRA_TESTS=OFF ^
-      -D ENABLE_AEC=OFF ^
       ..
 
   - cmd: nmake install
